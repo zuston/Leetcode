@@ -1,10 +1,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+int lengthOfLongestSubstringOld(char* s);
 int lengthOfLongestSubstring(char* s);
 
 int main(){
-	return 0;
+    printf("%d\n",lengthOfLongestSubstring('abcabcbb'));
+    return 0;
 }
 
 // Given "abcabcbb", the answer is "abc", which the length is 3.
@@ -13,8 +15,8 @@ int main(){
 
 // Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
 
-int lengthOfLongestSubstring(char *s){
-	int lengthOfLongestSubstring(char* s){
+//暴力算法
+int lengthOfLongestSubstringOld(char *s){
     int length = strlen(s);
     if(length==1){
         return 1;
@@ -27,7 +29,6 @@ int lengthOfLongestSubstring(char *s){
            int k = i;
            while(k<j){
                if(s[k]==s[j]){
-                //   printf("i:%d,j:%d,k:%d\n",i,j,k);
                    m = j-i;
                    flag = 1;
                    break;
@@ -46,4 +47,23 @@ int lengthOfLongestSubstring(char *s){
     }
     return max;
 }
+
+
+//优化算法
+int lengthOfLongestSubstring(char* s){
+    int length = strlen(s);
+    int MAX_SIZE = 256;
+    int parray[MAX_SIZE];
+    for(int i=0;i<MAX_SIZE;i++){
+        parray[i]=-1;
+    }
+    int max=0,start=0;
+    for(int i=0;i<length;i++){
+        if(parray[s[i]]!=-1){
+            max = max>(i-start)?max:i-start;
+            start = parray[s[i]]+1>start?parray[s[i]]+1:start;
+        }
+        parray[s[i]]=i;
+    }
+    return max>length-start?max:length-start;
 }
