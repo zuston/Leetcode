@@ -13,9 +13,7 @@ class Solution(object):
         if step==len(nums):
             self.res.append(temp)
             return
-        #不放
         self.loop(nums,step+1,temp)
-        #放
         temp = temp+[nums[step]]
         self.loop(nums,step+1,temp)
         
