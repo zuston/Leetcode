@@ -26,3 +26,5 @@
 |[Simplify Path](https://leetcode.com/problems/simplify-path/)|||[:link:](https://github.com/zuston/leetcode/blob/master/SimplifyPath.java)|
 |[Number of Islands](https://leetcode.com/problems/number-of-islands/)|||[:link:](https://github.com/zuston/leetcode/blob/master/NumberofIslands.java)|
 |[Next Permutation](https://leetcode.com/problems/next-permutation)|[:link:](https://github.com/zuston/leetcode/blob/master/31%23Next-Permutation.py)|||
+|[Decode Ways](https://leetcode.com/problems/decode-ways/)|||[:link:](https://github.com/zuston/leetcode/blob/master/DecodeWays.java)|
+|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)|||[:link:](https://github.com/zuston/leetcode/blob/master/AddTwoNumbersII.java)|
