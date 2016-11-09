@@ -22,6 +22,7 @@
 |[Permutations](https://leetcode.com/problems/permutations)||[:link:](https://github.com/zuston/leetcode/blob/master/46%23Permutations.py)|||
 |[Permutations II](https://leetcode.com/problems/permutations-ii)||[:link:](https://github.com/zuston/leetcode/blob/master/47%23Permutations-II.py)|||
 |[Group Anagrams](https://leetcode.com/problems/anagrams)||[:link:](https://github.com/zuston/leetcode/blob/master/49%23Group-Anagrams.py)|||
+|[还有一些懒得加进来了......]()||||
 |2016.10.31-----2016.11.6||||
 |[Simplify Path](https://leetcode.com/problems/simplify-path/)|||[:link:](https://github.com/zuston/leetcode/blob/master/SimplifyPath.java)|
 |[Number of Islands](https://leetcode.com/problems/number-of-islands/)|||[:link:](https://github.com/zuston/leetcode/blob/master/NumberofIslands.java)|
