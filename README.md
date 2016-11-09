@@ -28,5 +28,8 @@
 |[Next Permutation](https://leetcode.com/problems/next-permutation)|[:link:](https://github.com/zuston/leetcode/blob/master/31%23Next-Permutation.py)|||
 |[Decode Ways](https://leetcode.com/problems/decode-ways/)|||[:link:](https://github.com/zuston/leetcode/blob/master/DecodeWays.java)|
 |[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)|||[:link:](https://github.com/zuston/leetcode/blob/master/AddTwoNumbersII.java)|
-|2016.10.31-----2016.11.6||||
+|2016.11.7-----2016.11.13||||
 |[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|||[:link:](https://github.com/zuston/leetcode/blob/master/InsertionSortList.java)|
+|[Decode String](https://leetcode.com/problems/decode-string)|||[:link:](https://github.com/zuston/leetcode/blob/master/DecodeString.java)|
+|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|||[:link:](https://github.com/zuston/leetcode/blob/master/PartitionEqualSubsetSum.java)|
+|[Perfect Squares ](https://leetcode.com/problems/perfect-squares)|||[:link:](https://github.com/zuston/leetcode/blob/master/PerfectSquares.java)|
